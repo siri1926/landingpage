@@ -1,0 +1,161 @@
+i{
+   font-size: 60px;
+   font-family: monospace;
+   font-style: revert;
+   font-stretch: semi-condensed;
+}
+.pic{
+    width:100%;
+    height: 100%;
+    border-style: none;
+    border-top-left-radius: 420px;
+    border-top-right-radius: 61px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.logo{
+    width: 165px;
+height: 99px;
+border-radius: 133px;
+border-style: inset;
+border-width: 33px;
+padding-left: 6px;
+padding-top: 6px;
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none ;
+    margin: 10px 20px;}
+
+    nav ul li a{
+        color:#181917;
+        text-decoration: none;
+        font-size: 22px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: relative;
+    }
+    nav ul li a::after{
+        content:'';
+        width: 0;
+        height: 3px;
+        background: #d7631f;
+        position: absolute;
+        left: 0;
+        bottom:-6px;
+        transition: 0.5s;
+    }
+    nav ul li a:hover::after{
+        width: 100%;
+    }
+    li:hover{
+        transform: scaleY(1.5);
+    }
+    nav ul li a:hover{
+        color: #ee26ac;
+    }
+
+    nav{background-color: bisque;
+            display: flex;
+            align-items: center;
+
+            flex-wrap: wrap;
+        justify-content: right;}
+span{
+    color: #6fd2fd;
+    font-size: 118px;
+}
+.logo{
+    padding-left: 25px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 119, 142);
+
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: chocolate;
+    text-align: center;
+}
+b{
+    color: black;
+    font-size: 59px;
+}
+/* .............................................product.................................. */
+h1{
+    font-size: 45px;
+    background-color: antiquewhite;
+    font-style: italic;
+}
+
+    
+
+.products{
+    display: flex;
+    column-gap: 77px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 86px;
+}
+
+.pic1{
+    width: 229px;
+    height: 211px;
+    border-style: double;
+    border-radius: 32px;
+}
+.pic2{
+    width: 229px;
+    height: 211px;
+    border-style: double;
+    border-radius: 32px;
+}
+.pic3{
+    width: 229px;
+    height: 211px;
+    border-style: double;
+    border-radius: 32px;
+}
+.pic4{
+    width: 229px;
+    height: 211px;
+    border-style: double;
+    border-radius: 32px;
+}
+.pic5{
+    width: 229px;
+    height: 211px;
+    border-style: double;
+    border-radius: 32px;
+}
+.pic6{
+    width: 229px;
+    height: 211px;
+    border-style: double;
+    border-radius: 32px;
+}
+
+/* ........................................................conytact us................................. */
+h4{
+    color: #d7631f;
+    font-size: 25px;
+background-color: aqua;
+}
+.contact{
+    width:100%;
+    height:30%;
+}
+
+.id{
+    text-align: center;
+    background-color:black;
+    text-overflow: ellipsis;
+    text-shadow: 3px;
+    font-size: 40px;
+}
